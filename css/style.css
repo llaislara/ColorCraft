@@ -185,7 +185,7 @@ body {
   min-height: 100vh;
   display: flex;
   background: var(--bg);
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-variation-settings:"wdth" 100;
   flex-direction: column;
@@ -220,6 +220,7 @@ header {
 
 header img{
   max-width: 45%;
+  width: 30em;
 }
 section {
   flex: 1;

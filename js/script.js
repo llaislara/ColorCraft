@@ -7,8 +7,8 @@ let vm = new Vue({
       max: 50,
       delta: 10,
       steps: 15,
-      color1: '#f86c2a',
-      color2: '#622d86',
+      color1: '#b7f5bb',
+      color2: '#000000',
     };
   },
   computed: {
@@ -67,6 +67,7 @@ function updateIcon() {
     themeIcon.classList.remove('bi-brightness-high-fill');
     themeIcon.classList.add('bi-moon-stars-fill');
   }
+
 }
 
 updateColors();
